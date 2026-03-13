@@ -33,11 +33,11 @@ Max Planck Institute for Informatics, Saarland Informatics Campus, Saarbrücken,
 
 ## Abstract
 
-Language-aligned vision foundation models perform strongly across diverse downstream tasks. Yet, their learned representations remain opaque, making interpreting their decision-making hard. 
-Recent works decompose these representations into human-interpretable concepts, but provide poor spatial grounding and are limited to image classification tasks.
-In this work, we propose Insight, a language-aligned concept foundation model that provides fine-grained concepts, which are human-interpretable and spatially grounded in the input image.
-We leverage a hierarchical sparse autoencoder and a foundation model with strong semantic representations to automatically extract concepts at various granularities. Examining local co-occurrence dependencies of concepts allows us to define concept relationships. Through these relations we further improve concept naming and obtain richer explanations.
-On benchmark data, we show that Insight provides performance on classification and segmentation that is competitive with opaque foundation models while providing fine-grained, high quality concept-based explanations.
+Language-aligned vision foundation models perform strongly across diverse downstream tasks. Yet, their learned representations remain opaque, making interpreting their decision-making difficult. 
+Recent work decompose these representations into human-interpretable concepts, but provide poor spatial grounding and are limited to image classification tasks.
+In this work, we propose \ours, a \textit{language-aligned concept foundation model for vision} that provides fine-grained concepts, which are human-interpretable and spatially grounded in the input image.
+When paired with a foundation model with strong semantic representations, we get explanations for \textit{any of its downstream tasks}. Examining local co-occurrence dependencies of concepts allows us to define concept relationships through which we improve concept naming and obtain richer explanations.
+On benchmark data, we show that \ours provides performance on classification, segmentation, and captioning that is competitive with opaque foundation models while providing fine-grained, high quality concept-based explanations.
 
 ---
 ## Code
