@@ -88,6 +88,45 @@ These are the datasets on which linear probes are trained on the learnt concept 
     * [ImageNet](https://www.image-net.org/)
 * Set the paths to the datasets in `config.py`.
 #### Segmentation evaluation datasets
+Please follow the [MMSeg data preparation document](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md). 
+```shell
+dataset
+├── ADE
+│   ├── ADEChallengeData2016
+│   │   ├── annotations
+│   │   │   ├── training
+│   │   │   ├── validation
+│   │   ├── images
+│   │   │   ├── training
+│   │   │   ├── validation
+├── Cityscapes
+│   ├── leftImg8bit
+│   │   ├── train
+│   │   ├── val
+│   ├── gtFine
+│   │   ├── train
+│   │   ├── val
+├── ms_coco_17
+│   ├── images
+│   │   ├── train2017
+│   │   ├── val2017
+│   ├── annotations
+│   │   ├── object
+│   │   ├── stuff
+├── PascalVOC
+│   ├── VOC2012
+│   │   ├── JPEGImages
+│   │   ├── SegmentationClass
+│   │   ├── ImageSets
+│   │   │   ├── Segmentation
+│   ├── VOC2010
+│   │   ├── JPEGImages
+│   │   ├── SegmentationClassContext
+│   │   ├── ImageSets
+│   │   │   ├── SegmentationContext
+│   │   │   │   ├── train.txt
+│   │   │   │   ├── val.txt
+```
 #### Image Captioning datasets
 We use MS-COCO for evaluating the captioning performance of our concept bottleneck model.
 * Download the images and annotations:
