@@ -1,0 +1,10 @@
+[project]
+name = "cfm"
+version = "0.1.0"
+description = "Code for the paper: CFM: Language-aligned Concept FoundationModel for Vision."
+readme = "README.md"
+
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
