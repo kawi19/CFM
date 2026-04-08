@@ -22,8 +22,8 @@ Max Planck Institute for Informatics, Saarland Informatics Campus, Saarbrücken,
 ---
 
 ## 📰 News
-* **[Jan 2026]**: Initial codebase released.
-* **[Apr 2026]**: Our arXiv preprint is now available.
+* **[Apr 2026]**: Initial codebase released.
+* **[Jan 2026]**: Our arXiv preprint is now available.
 ---
 
 ## Contents
@@ -76,7 +76,7 @@ Once downloaded, configure the dataset path in `config.py`.
 ### Vocabularies for naming concepts
 We use the following vocabularies for naming concepts:
 * From [CLIP-Dissect](https://arxiv.org/abs/2204.10965) download [20k.txt](https://github.com/first20hours/google-10000-english/blob/master/20k.txt) and place in the vocab_dir as "clipdissect_20k.txt"
-Custom vocabularies will be released soon. 
+Additional custom vocabularies will be released soon. 
 
 Set the path to vocab_dir in `config.py`.
 ### Datasets for training downstream classification probes, open-vocab segmentation evaluation and image captioning 
@@ -130,11 +130,11 @@ After downloading, please place the files into the following directory structure
 
 3. **Places365 Classification Probe Checkpoint:**  
    Place here:  
-   `{probe_dir}/places365/lr0.0001_bs512_epo50_clCE_spL1_spl0.0max_no_threshold/on_concepts_ckpts/on_concepts_final_lr0.0001_bs512_epo50_clCE_spL1_spl0.0_max_no_threshold.pt`
+   `{probe_dir}/cc12m/dinoclip_ViT-B16/out/k_12_ef_16_lr_0.0001_mf_[0.008,0.03,0.06,0.12,0.24,0.542]/places365/example_linear_probe_places365.pt`
 
 4. **ImageNet Classification Probe Checkpoint:**  
    Place here:  
-   `{probe_dir}/imagenet/lr0.0001_bs512_epo50_clCE_spL1_spl0.0max_no_threshold/on_concepts_ckpts/on_concepts_final_lr0.0001_bs512_epo50_clCE_spL1_spl0.0_max_no_threshold.pt`
+   `{probe_dir}/cc12m/dinoclip_ViT-B16/out/k_12_ef_16_lr_0.0001_mf_[0.008,0.03,0.06,0.12,0.24,0.542]/imagenet/example_linear_probe_imagenet.pt`
 ### Quickstart Notebook: CFM and Downstream Tasks
 Explore the `cfm_introduction.ipynb` notebook for a hands-on guide on running CFM and applying it to various downstream tasks.
 ### Visualization
