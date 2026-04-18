@@ -1,4 +1,4 @@
-# Insight: Interpretable Semantic Hierarchies in Vision-Language Encoders
+# CFM: Language-aligned Concept Foundation Model for Vision
 
 <a href="https://explainablemachines.com/members/kai-wittenmayer.html">Kai Wittenmayer</a>,
 <a href="https://sukrutrao.github.io">Sukrut Rao</a>,
