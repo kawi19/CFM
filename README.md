@@ -70,7 +70,7 @@ pip install -e .
 This repository requires the [CLIP-DINOiser](https://github.com/wysoczanska/clip_dinoiser) backbone. Download the `last.pt` checkpoint [here](https://github.com/wysoczanska/clip_dinoiser/blob/main/checkpoints/last.pt) and place it at `cfm/clip_dinoiser_backbone/checkpoints/last.pt`.
 ### Dataset for training Sparse Autoencoder (CC12M)
 
-Download the Conceptual 12M (CC12M) dataset directly from Hugging Face: [conceptual_12m](https://huggingface.co/datasets/conceptual_12m).
+Download the Conceptual 12M (CC12M) dataset directly from Hugging Face: [conceptual_12m](https://huggingface.co/datasets/pixparse/cc12m-wds).
 
 Once downloaded, configure the dataset path in `config.py`.
 ### Vocabularies for naming concepts
@@ -150,6 +150,7 @@ python scripts/save_conf_matrix_and_top_act.py --probe_dataset cc12m --probe_spl
 ```
 #### Concept Naming
 ```
+Text embedding saving coming soon!
 python scripts/save_concept_names.py --probe_dataset cc12m --probe_split "train"
 ```
 ### Download Pre-trained Checkpoints and Concept Names
