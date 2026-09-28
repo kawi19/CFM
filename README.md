@@ -1,12 +1,29 @@
 # CFM: Language-aligned Concept Foundation Model for Vision
-
+<h3 align="center">
 <a href="https://explainablemachines.com/members/kai-wittenmayer.html">Kai Wittenmayer</a>,
 <a href="https://sukrutrao.github.io">Sukrut Rao</a>,
 <a href="https://m-parchami.github.io">Amin Parchami-Araghi</a>,
 <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele">Bernt Schiele</a>,
 <a href="https://explainablemachines.com/members/jonas-fischer.html">Jonas Fischer</a>
-
+<h3 align="center">
 Max Planck Institute for Informatics, Saarland Informatics Campus, Saarbrücken, Germany  
+  
+<h3 align="center">
+European Conference on Computer Vision (ECCV) 2026
+</div>
+</h3>
+
+<h3 align="center">
+<a href="https://arxiv.org/abs/2601.13798">Paper</a>
+|
+<a href="https://concept-foundation-model.mpi-inf.mpg.de/">Concept Network</a>
+|
+<a href="https://www.youtube.com/watch?v=bsljjwZ-gXE">Video</a>
+|
+<a href="assets/poster.pdf">Poster</a>
+</h3>
+
+---
 
 <p align="center">
   <a href="assets/teaser.png">
@@ -16,19 +33,26 @@ Max Planck Institute for Informatics, Saarland Informatics Campus, Saarbrücken,
 
 ---
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.13798-b31b1b.svg)](https://arxiv.org/abs/2601.13798)
+<p align="center">
+  <b>Interactive Concept Network Demo:</b><br>
+  <a href="https://concept-foundation-model.mpi-inf.mpg.de/">
+    <img src="assets/teaser_website.gif" width="100%" alt="CFM Concept Network Demo">
+  </a>
+</p>
 
 
 ---
 
 ## 📰 News
+* **[Sep 2026]**: 🚀 Interactive **Concept Network** has been released. Check out all 8k discoverd Concepts [here](https://concept-foundation-model.mpi-inf.mpg.de/)!
+* **[Jun 2026]**: 🎉 CFM has been accepted as a **Spotlight** presentation at ECCV 2026!
 * **[Apr 2026]**: Initial codebase released.
 * **[Jan 2026]**: Our arXiv preprint is now available.
 ---
 
 ## Contents
 - [Abstract](#abstract)
-- [Code](#code)
+- [Set-up](#set-up)
 - [Citation](#citation)
 
 ## Abstract
@@ -182,10 +206,6 @@ Explore the `cfm_introduction.ipynb` notebook for a hands-on guide on running CF
 ```
 python scripts/visualization/save_top_images_per_concept.py --probe_dataset cc12m --probe_split "train" 
 ```
-#### Hierarchy visualization
-```
-Coming soon!
-```
 ### Evaluation
 ```
 Coming soon!
@@ -196,11 +216,13 @@ Coming soon!
 If you find this work useful, please cite the arXiv preprint:
 
 ```tex
-@article{wittenmayer2026cfm,
-  title  = {{CFM}: Language-aligned Concept Foundation Model for Vision},
-  author = {Wittenmayer, Kai and Rao, Sukrut and Parchami-Araghi, Amin and Schiele, Bernt and Fischer, Jonas},
-  journal = {arXiv preprint arXiv:2601.13798},
-  year   = {2026}
+@inproceedings{wittenmayer2026cfm,
+  title={CFM: Language-aligned concept foundation model for vision},
+  author={Wittenmayer, Kai and Rao, Sukrut and Parchami-Araghi, Amin and Schiele, Bernt and Fischer, Jonas},
+  booktitle={European Conference on Computer Vision},
+  pages={173--191},
+  year={2026},
+  organization={Springer}
 }
 ```
 
