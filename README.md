@@ -217,7 +217,7 @@ If you find this work useful, please cite the arXiv preprint:
 
 ```tex
 @inproceedings{wittenmayer2026cfm,
-  title={CFM: Language-aligned concept foundation model for vision},
+  title={CFM: Language-aligned Concept Foundation Model for Vision},
   author={Wittenmayer, Kai and Rao, Sukrut and Parchami-Araghi, Amin and Schiele, Bernt and Fischer, Jonas},
   booktitle={European Conference on Computer Vision},
   pages={173--191},
